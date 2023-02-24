@@ -1,0 +1,20 @@
+.add-container{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.add-link{
+    display: flex;
+
+}
+
+.add-button{
+    width: 385px;
+    border-radius: 10px;
+    margin-top: 2rem;
+    height: 4rem;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+}

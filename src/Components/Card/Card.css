@@ -1,0 +1,127 @@
+.cardContainer {
+    background-color: rgb(183, 183, 183);
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "chip . . vendor"
+        "cardNumber cardNumber cardNumber cardNumber"
+        "cardholder cardholder . valid"
+        "name name name date"
+    ;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.evil {
+    background: linear-gradient(248.3deg, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0) 100%), #F33355;
+    color: white;
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "chip . . vendor"
+        "cardNumber cardNumber cardNumber cardNumber"
+        "cardholder cardholder . valid"
+        "name name name date"
+    ;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.blockchain {
+    background: linear-gradient(248.52deg, rgba(0, 0, 0, 0.15) 1.49%, rgba(0, 0, 0, 0) 100%), #8B58F9;
+    color: white;
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "chip . . vendor"
+        "cardNumber cardNumber cardNumber cardNumber"
+        "cardholder cardholder . valid"
+        "name name name date"
+    ;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.bitcoin {
+    background: linear-gradient(248.04deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 99.07%), #FFAE34;
+    color: #222;
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "chip . . vendor"
+        "cardNumber cardNumber cardNumber cardNumber"
+        "cardholder cardholder . valid"
+        "name name name date"
+    ;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.ninja {
+    background: linear-gradient(248.3deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%), #222222;
+    color: white;
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "chip . . vendor"
+        "cardNumber cardNumber cardNumber cardNumber"
+        "cardholder cardholder . valid"
+        "name name name date"
+    ;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+.card-chip {
+    grid-area: chip;
+    width: 45px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.card-vendor {
+    grid-area: vendor;
+    height: 30;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: auto;
+}
+
+.card-number {
+    grid-area: cardNumber;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-cardholder {
+    grid-area: cardholder;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.card-valid {
+    grid-area: valid;
+    margin-right: 1rem;
+    margin-left: auto;
+    margin-top: 1rem;
+}
+
+.card-name {
+    margin-top: 5px;
+    grid-area: name;
+    margin-left: 1rem;
+}
+
+.card-date {
+    margin-top: 5px;
+    grid-area: date;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
